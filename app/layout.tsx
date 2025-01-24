@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Banner } from "./components/Banner"
+import { Footer } from "./components/Footer"
 
 export const metadata: Metadata = {
   title: "PSG BOYZ CHAT",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='fr'>
-      <body className='py-2 flex flex-col justify-start items-center h-screen bg-gradient-to-b from-primary to-secondary'>
+      <body className='p-4 flex flex-col justify-start items-center h-screen bg-gradient-to-b from-primary to-secondary'>
         <Banner />
         {children}
+        <Footer />
       </body>
     </html>
   )

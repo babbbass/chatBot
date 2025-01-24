@@ -3,7 +3,7 @@ import psgBoyLogo from "../assets/psgBoyLogo.png"
 
 export function Banner() {
   return (
-    <div className='w-4/5 md:px-5 my-10'>
+    <div className='w-full md:w-4/5 md:px-5 my-10 max-w-screen-2xl'>
       <div className='flex justify-between items-center mb-5 w-full'>
         <h1 className='text-xl md:text-3xl font-semibold bg-gradient-to-r from-white to-gold text-transparent bg-clip-text '>
           PSG-BOYZ Chat
