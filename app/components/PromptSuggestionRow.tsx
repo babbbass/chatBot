@@ -12,7 +12,7 @@ export function PromptSuggestionRow({
     "Quel est le meilleur résultat de l'histoire du PSG ?",
   ]
   return (
-    <div className='m-2 p-2 text-base'>
+    <div className='p-2 text-base'>
       {prompts.map((prompt, index) => (
         <PromptSuggestionButton
           key={`suggestion-${index}`}

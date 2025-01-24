@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='fr'>
-      <body className='flex flex-col justify-start items-center h-screen bg-gradient-to-b from-primary to-secondary'>
+      <body className='py-2 flex flex-col justify-start items-center h-screen bg-gradient-to-b from-primary to-secondary'>
         <Banner />
         {children}
       </body>
