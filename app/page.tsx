@@ -31,7 +31,7 @@ export default function Home() {
   }
 
   return (
-    <main className='w-full md:w-4/5 max-w-screen-2xl h-4/5 max-h-[700px] bg-white rounded-2xl flex flex-col p-2 md:p-5 text-black text-xs md:text-base'>
+    <main className='w-full md:w-4/5 flex-1 max-w-screen-2xl bg-white rounded-2xl flex flex-col p-2 md:p-5 text-black text-xs md:text-base'>
       <section
         className={`w-full flex-grow overflow-y-auto ${
           noMessages ? "" : "h-full flex flex-col"
